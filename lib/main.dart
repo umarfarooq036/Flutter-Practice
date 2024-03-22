@@ -60,7 +60,7 @@ class MyAppState extends State {
                       Fluttertoast.showToast(
                           msg: text, toastLength: Toast.LENGTH_SHORT);
                     },
-                    child: Text("Press me"),
+                    child: const Text("Press me"),
                   ),
                   IconButton(
                       onPressed: () {
@@ -68,7 +68,7 @@ class MyAppState extends State {
                         Fluttertoast.showToast(
                             msg: text, toastLength: Toast.LENGTH_SHORT);
                       },
-                      icon: Icon(Icons.add_a_photo)),
+                      icon: const Icon(Icons.add_a_photo)),
                 ],
               ),
             ],
