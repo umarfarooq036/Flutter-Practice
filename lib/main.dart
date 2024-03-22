@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'drawer.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,6 +27,7 @@ class MyAppState extends State {
     return MaterialApp(
       title: "First App",
       home: Scaffold(
+        drawer: CustomDrawer(),
         appBar: AppBar(
           title: const Text("data"),
           backgroundColor: Colors.red,
